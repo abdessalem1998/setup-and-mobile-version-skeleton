@@ -65,7 +65,7 @@ nav {
 }
 
 .title1 {
-  font-family: Crete Round;
+  font-family: Crete Round, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 56px;
@@ -75,11 +75,11 @@ nav {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .title2 {
-  font-family: Roboto;
+  font-family: Roboto, serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -90,11 +90,11 @@ nav {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .para {
-  font-family: Poppins;
+  font-family: Poppins, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -103,7 +103,7 @@ nav {
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .connect {
