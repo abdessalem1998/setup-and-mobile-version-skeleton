@@ -77,6 +77,7 @@ nav {
   flex-grow: 0;
   margin: 12px 0px;
 }
+
 .title2 {
   font-family: Roboto;
   font-style: normal;
@@ -86,7 +87,6 @@ nav {
   display: flex;
   align-items: center;
   color: #fff5e1;
-  /* Inside Auto Layout */
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -99,9 +99,7 @@ nav {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  /* Theme 3 / Neutral 11 */
   color: #fff;
-  /* Inside Auto Layout */
   flex: none;
   order: 2;
   flex-grow: 0;
