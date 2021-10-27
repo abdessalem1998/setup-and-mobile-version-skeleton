@@ -3,3 +3,8 @@ body {
   margin: 0;
   background: #1C1A19;
 }
+
+nav {
+  height: 72px;
+  background: #3E3C3C;
+}
