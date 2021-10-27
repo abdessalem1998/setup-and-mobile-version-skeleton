@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: #1c1a19;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.7rem;
+  margin-bottom: 65px;
+  margin-right: 24px;
+  width: 100%;
+  height: 70px;
+  background: #3c3a39;
+  position: fixed;
+}
+
+.logo {
+  display: flex;
+  position: fixed;
+  top: 20px;
+  color: #fff;
+  margin-left: 40px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+}
+
+nav {
+  width: 25px;
+  height: 18px;
+  position: fixed;
+  top: 25px;
+  right: 50px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* content */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  background-image: url("images/back.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.title1 {
+  font-family: Crete Round, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.title2 {
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.para {
+  font-family: Poppins, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.connect {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  margin: 0.75rem 0;
+  color: #7f8cff;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10.636rem;
+  list-style-type: none;
+}
+
+.social-icon {
+  display: block;
+  width: 100%;
+  height: 40%;
+}
