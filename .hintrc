@@ -8,8 +8,9 @@
   "extends": ["development"],
   "formatters": ["stylish"],
   "hints": [
-    "meta-charset-utf-8",
-    "meta-viewport",
-    "no-inline-styles:error"
+    "button-type",
+    "disown-opener",
+    "html-checker",
+    
   ]
 }
