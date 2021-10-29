@@ -214,11 +214,11 @@ nav {
   padding: 10px 0;
 }
 
-.card-button:hover{
-  background: #FFF5E1;
-  border: 1px solid #F55800;
+.card-button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
   box-sizing: border-box;
-  color: #F55800;
+  color: #f55800;
 }
 
 .card2 {
@@ -280,11 +280,11 @@ nav {
   width: 100%;
 }
 
-.card-button2:hover{
-  background: #FFF5E1;
-  border: 1px solid #F55800;
+.card-button2:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
   box-sizing: border-box;
-  color: #F55800;
+  color: #f55800;
 }
 
 .about-me {
@@ -333,11 +333,11 @@ nav {
   border: none;
 }
 
-.about-button:hover{
-  background: #FFF5E1;
-  border: 1px solid #F55800;
+.about-button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
   box-sizing: border-box;
-  color: #F55800;
+  color: #f55800;
 }
 
 .separate {
