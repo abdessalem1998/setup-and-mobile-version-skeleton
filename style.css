@@ -214,6 +214,13 @@ nav {
   padding: 10px 0;
 }
 
+.card-button:hover{
+  background: #FFF5E1;
+  border: 1px solid #F55800;
+  box-sizing: border-box;
+  color: #F55800;
+}
+
 .card2 {
   padding: 50px 10px;
   font-size: 30px;
@@ -273,6 +280,13 @@ nav {
   width: 100%;
 }
 
+.card-button2:hover{
+  background: #FFF5E1;
+  border: 1px solid #F55800;
+  box-sizing: border-box;
+  color: #F55800;
+}
+
 .about-me {
   padding-left: 15px;
   background-image: url("images/Frame.svg");
@@ -293,7 +307,7 @@ nav {
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .about-para {
@@ -317,6 +331,13 @@ nav {
   letter-spacing: 0.03em;
   color: #fff;
   border: none;
+}
+
+.about-button:hover{
+  background: #FFF5E1;
+  border: 1px solid #F55800;
+  box-sizing: border-box;
+  color: #F55800;
 }
 
 .separate {
