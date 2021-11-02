@@ -130,8 +130,6 @@ nav {
 }
 
 
-/* project */
-
 .projects {
     background-color: #fff;
     display: flex;
@@ -449,9 +447,44 @@ nav {
     padding-left: 15px;
 }
 
+.contact-btn:hover {
+    background: #fff5e1;
+    border: 1px solid #f55800;
+    box-sizing: border-box;
+    color: #f55800;
+}
+
 .btncontainer {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
 }
+
+.contact-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+
+}
+
+.contact-icon {
+  background-color: #505F79;
+}
+
+/*.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10.636rem;
+    list-style-type: none;
+}
+
+.social-icon {
+    display: block;
+    width: 100%;
+    height: 40%;
+}*/

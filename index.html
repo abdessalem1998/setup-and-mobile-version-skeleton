@@ -173,16 +173,16 @@
     </section>
     <section class="contact">
         <form class="contact-form" action="index.html" method="post">
-            <p class="contact-para">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+          <p class="contact-para">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
             <ul class="ins">
                 <li class="in">
-                    <input class="contact-input" type="text" id="name" name="name" placeholder="username">
+                    <input class="contact-input" type="text" id="name" name="name" placeholder="username" minlength="2" maxlength="30" required>
                 </li>
                 <li class="in">
-                    <input class="contact-input" type="email" id="email" name="email" placeholder="user@email.com">
+                    <input class="contact-input" type="email" id="email" name="email" placeholder="user@email.com" required>
                 </li>
                 <li class="in">
-                    <textarea class="message-input" id="msg" name="message">Enter your Message here</textarea>
+                    <textarea class="message-input" id="msg" name="message" minlength="50" maxlength="500" required>Enter your Message here</textarea>
                 </li>
             </ul>
             <div class="btncontainer"> <button class="contact-btn" type="submit" name="button">Get in touch</button>
@@ -190,28 +190,28 @@
             <hr>
             <ul class="contact-icons">
                 <li>
-                    <a href="">
-                        <img class="social-icon" alt="cat icon" src="images/c.svg">
+                    <a href="" >
+                        <img class="contact-icon" alt="cat icon" src="images/c.svg">
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img class="social-icon" alt="linkedin icon" src="images/l.svg">
+                        <img class="contact-icon" alt="linkedin icon" src="images/l.svg">
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img class="social-icon" alt="2 icon" src="images/2.svg">
+                        <img class="contact-icon" alt="2 icon" src="images/2.svg">
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img class="social-icon" alt="t icon" src="images/t.svg">
+                        <img class="contact-icon" alt="t icon" src="images/t.svg">
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img class="social-icon" alt="m icon" src="images/m.svg">
+                        <img class="contact-icon" alt="m icon" src="images/m.svg">
                     </a>
                 </li>
             </ul>
