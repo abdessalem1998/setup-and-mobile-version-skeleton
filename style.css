@@ -406,10 +406,10 @@ nav {
 }
 
 .in {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
-.contact-input{
+.contact-input {
     color: #979493;
     top: calc(50% - 18px/2);
     font-family: Inter;
@@ -431,4 +431,27 @@ nav {
     height: 150px;
     border: none;
     border-bottom: 1px solid #000;
+}
+
+.contact-btn {
+    height: 48px;
+    background: #FF6B00;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    border: none;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
