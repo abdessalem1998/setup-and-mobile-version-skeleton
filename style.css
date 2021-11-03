@@ -58,6 +58,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  height: 550px;
   padding: 120px 24px;
   background-image: url("images/back.svg");
   background-size: cover;
@@ -518,7 +519,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     height: 550px;
-    background-position:  center;
+    background-position: center;
   }
 
   .social-icons {
@@ -533,6 +534,6 @@ header {
   }
 
   .social-icon {
-   margin-bottom: 15px;
+    margin-bottom: 15px;
   }
 }
