@@ -52,7 +52,6 @@ nav {
   justify-content: space-around;
 }
 
-/* content */
 .content {
   display: flex;
   flex-direction: column;
@@ -127,7 +126,6 @@ nav {
   height: 40%;
 }
 
-/* project */
 .projects {
   background-color: #fff;
   display: flex;
@@ -374,4 +372,101 @@ nav {
   line-height: 43px;
   align-items: center;
   text-align: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.contact-para {
+  margin: 50px 30px 30px 30px;
+  font-family: Inter, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.ins {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.in {
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+.contact-input {
+  color: #979493;
+  top: calc(50% - 18px / 2);
+  font-family: Inter, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.message-input {
+  background: #fbf8f7;
+  font-family: Inter, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  height: 150px;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.contact-btn {
+  height: 48px;
+  background: #ff6b00;
+  font-family: Inter, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border: none;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.contact-btn:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+  color: #f55800;
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.contact-icon {
+  background-color: #505f79;
+  margin-right: 20px;
 }
