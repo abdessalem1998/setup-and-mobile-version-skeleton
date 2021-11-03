@@ -508,4 +508,31 @@ header {
     margin-right: 10px;
     text-decoration: none;
   }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 150px 24px;
+    background-image: url("images/back.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-position:  center;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+    padding-top: 70px;
+    width: 10.636rem;
+    list-style-type: none;
+    order: -1;
+  }
+
+  .social-icon {
+   margin-bottom: 15px;
+  }
 }
