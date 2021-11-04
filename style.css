@@ -521,6 +521,34 @@ header {
     background-position: 670px 100px;
   }
 
+  .title1 {
+    font-family: Crete Round, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 81px;
+  }
+
+  .title2 {
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .para {
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .header-text {
+    width: 40%;
+  }
+
   .social-icons {
     display: flex;
     flex-direction: column;
