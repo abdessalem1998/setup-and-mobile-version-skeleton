@@ -589,9 +589,13 @@ header {
   }
 
   .card-image {
-    width: 2000px;
+    width: 65%;
     height: 450px;
     margin-right: 50px;
+  }
+
+  .card-content {
+    width: 35%;
   }
 
   .other-cards {
