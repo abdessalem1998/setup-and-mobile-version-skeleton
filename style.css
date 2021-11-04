@@ -474,7 +474,7 @@ header {
   margin-right: 20px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 992px) {
   .mobile {
     display: none;
   }
@@ -518,7 +518,7 @@ header {
     background-image: url("images/back.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 550px;
+    height: 600px;
     background-position: center;
   }
 
