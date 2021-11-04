@@ -584,4 +584,30 @@ header {
     align-items: flex-start;
     justify-content: space-around;
   }
+
+  .contact-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .contact-para {
+    width: 350px;
+  }
+
+  .ins {
+    padding-top: 30px;
+    align-items: flex-start;
+    width: 450px;
+  }
+
+  .in {
+    margin-bottom: 10px;
+    padding-left: 100px;
+    width: 300px;
+  }
+
+  .btncontainer{
+    padding-left: 100px;
+  }
 }
