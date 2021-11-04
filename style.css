@@ -555,4 +555,14 @@ header {
     width: 700px;
     margin-right: 50px;
   }
+
+  .other-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .card2 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
 }
