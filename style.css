@@ -615,4 +615,8 @@ header {
   .contact-icons {
     padding-top: 20px;
   }
+
+  .card-button2 {
+    display: none;
+  }
 }
