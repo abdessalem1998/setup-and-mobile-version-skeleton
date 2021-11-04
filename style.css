@@ -545,6 +545,16 @@ header {
     line-height: 32px;
   }
 
+  .title3 {
+    color: #091f42;
+    font-family: Crete Round, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 52px;
+    margin-left: 35px;
+  }
+
   .header-text {
     width: 40%;
   }
