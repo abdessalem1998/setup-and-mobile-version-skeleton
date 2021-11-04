@@ -662,11 +662,15 @@ header {
 
   .about-me {
     align-items: flex-start;
+    background-image: url("images/about.png");
+    background-size: 530px 300px;
+    background-repeat: no-repeat;
+    background-position: 820px 100px;
   }
 
   .about-content {
-    width: 700px;
     margin-left: 100px;
+    width: 40%;
   }
 
   .lan {
@@ -732,6 +736,22 @@ header {
     line-height: 44px;
     display: flex;
     flex-direction: row;
+  }
+
+  .about-title {
+    font-family: Crete Round, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 81px;
+  }
+
+  .about-para {
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
   }
 
   .lan-span {
