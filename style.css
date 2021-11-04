@@ -619,4 +619,10 @@ header {
   .card-button2 {
     display: none;
   }
+
+  .lan-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
