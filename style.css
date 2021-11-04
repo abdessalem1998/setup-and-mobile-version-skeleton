@@ -574,4 +574,14 @@ header {
     width: 700px;
     margin-left: 100px;
   }
+
+  .lan {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
 }
