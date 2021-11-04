@@ -603,9 +603,61 @@ header {
     grid-template-columns: auto auto auto;
   }
 
-  .card2 {
+  .card21 {
     margin-left: 10px;
     margin-bottom: 10px;
+    height: 450px;
+    background-image: url("images/image1.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .card211 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 450px;
+    background-image: url("images/image4.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .card-button21 {
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    background: #ff6b00;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .card22 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 450px;
+    background-image: url("images/image2.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .card23 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 450px;
+    background-image: url("images/image3.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 
   .about-me {
@@ -665,5 +717,18 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .card-title2 {
+    padding-left: 15px;
+  }
+
+  .card-para2 {
+    padding-left: 15px;
+  }
+
+  .langs2 {
+    padding-left: 15px;
+    padding-bottom: 15px;
   }
 }
