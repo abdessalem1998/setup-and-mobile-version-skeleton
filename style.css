@@ -565,4 +565,13 @@ header {
     margin-left: 10px;
     margin-bottom: 10px;
   }
+
+  .about-me {
+    align-items: flex-start;
+  }
+
+  .about-content {
+    width: 700px;
+    margin-left: 100px;
+  }
 }
