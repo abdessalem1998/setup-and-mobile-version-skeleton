@@ -581,6 +581,7 @@ header {
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 50px;
   }
 
   .card {
@@ -690,23 +691,33 @@ header {
   }
 
   .contact-para {
-    width: 350px;
+    width: 40%;
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #262626;
   }
 
   .ins {
     padding-top: 30px;
     align-items: flex-start;
-    width: 450px;
+    width: 60%;
   }
 
   .in {
     margin-bottom: 30px;
-    padding-left: 100px;
-    width: 300px;
+    width: 80%;
   }
 
-  .btncontainer {
-    padding-left: 100px;
+  .message-input {
+    width: 100%;
+  }
+
+  .contact-input {
+    padding-top: 20px;
+    width: 100%;
   }
 
   .contact-icons {
