@@ -536,4 +536,23 @@ header {
   .social-icon {
     margin-bottom: 15px;
   }
+
+  .projects {
+    background-color: #fff;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-image {
+    width: 700px;
+    margin-right: 50px;
+  }
 }
