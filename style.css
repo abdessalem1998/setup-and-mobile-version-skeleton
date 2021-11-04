@@ -534,7 +534,8 @@ header {
   }
 
   .social-icon {
-    margin-bottom: 15px;
+    width: 23px;
+    margin-bottom: 30px;
   }
 
   .projects {
