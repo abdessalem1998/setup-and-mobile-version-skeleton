@@ -515,11 +515,10 @@ header {
     flex-direction: row;
     align-items: flex-start;
     padding: 150px 24px;
-    background-image: url("images/back.svg");
-    background-size: cover;
+    background-image: url("images/back2.svg");
+    background-size: 700px 700px;
     background-repeat: no-repeat;
-    height: 600px;
-    background-position: center;
+    background-position: 670px 100px;
   }
 
   .social-icons {
