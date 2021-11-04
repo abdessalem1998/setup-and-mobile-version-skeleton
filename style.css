@@ -534,7 +534,6 @@ header {
   }
 
   .social-icon {
-    width: 23px;
     margin-bottom: 30px;
   }
 
@@ -553,7 +552,8 @@ header {
   }
 
   .card-image {
-    width: 700px;
+    width: 2000px;
+    height: 450px;
     margin-right: 50px;
   }
 
