@@ -607,7 +607,11 @@ header {
     width: 300px;
   }
 
-  .btncontainer{
+  .btncontainer {
     padding-left: 100px;
+  }
+
+  .contact-icons {
+    padding-top: 20px;
   }
 }
