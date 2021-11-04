@@ -470,7 +470,6 @@ header {
 }
 
 .contact-icon {
-  background-color: #505f79;
   margin-right: 20px;
 }
 
@@ -671,7 +670,7 @@ header {
 
   .about-content {
     margin-left: 100px;
-    width: 40%;
+    width: 45%;
   }
 
   .lan {
