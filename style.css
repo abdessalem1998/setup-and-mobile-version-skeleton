@@ -517,7 +517,7 @@ header {
     background-image: url("images/back2.svg");
     background-size: 700px 700px;
     background-repeat: no-repeat;
-    background-position: 670px 100px;
+    background-position: 100% 50%;
   }
 
   .title1 {
@@ -665,7 +665,7 @@ header {
     background-image: url("images/about.png");
     background-size: 530px 300px;
     background-repeat: no-repeat;
-    background-position: 820px 100px;
+    background-position: 100% 50%;
   }
 
   .about-content {
