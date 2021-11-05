@@ -339,6 +339,8 @@ header {
   border: 1px solid #f55800;
   box-sizing: border-box;
   color: #f55800;
+  width: 20%;
+  height: 20%;
 }
 
 .separate {
@@ -489,6 +491,10 @@ header {
     padding: 8px;
     margin-right: 24px;
     padding-top: 30px;
+  }
+
+  .logo:hover {
+    font-size: 60px;
   }
 
   .nav-items {
