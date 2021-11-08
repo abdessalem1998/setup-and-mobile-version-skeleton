@@ -13,19 +13,21 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   font-size: 1.7rem;
   margin-bottom: 65px;
   margin-right: 24px;
+  padding-top: 30px;
   width: 100%;
-  height: 70px;
+  height: 60px;
   background: #3c3a39;
   position: fixed;
 }
 
+.desktop {
+  display: none;
+}
+
 .logo {
-  display: flex;
-  position: fixed;
   top: 20px;
   color: #fff;
   margin-left: 40px;
@@ -40,22 +42,23 @@ header {
   background-color: #fff;
 }
 
-nav {
+.mobile {
   width: 25px;
   height: 18px;
-  position: fixed;
   top: 25px;
   right: 50px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-right: 50px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  height: 550px;
   padding: 120px 24px;
   background-image: url("images/back.svg");
   background-size: cover;
@@ -467,6 +470,316 @@ nav {
 }
 
 .contact-icon {
-  background-color: #505f79;
   margin-right: 20px;
+}
+
+@media (min-width: 992px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: flex;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    margin-right: 24px;
+    padding-top: 30px;
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 10px;
+    padding-right: 50px;
+  }
+
+  .nav-item {
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 150px 24px;
+    background-image: url("images/back2.svg");
+    background-size: 700px 700px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+  }
+
+  .title1 {
+    font-family: Crete Round, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 81px;
+  }
+
+  .title2 {
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .para {
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .title3 {
+    color: #091f42;
+    font-family: Crete Round, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 52px;
+    margin-left: 35px;
+  }
+
+  .header-text {
+    width: 40%;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+    padding-top: 70px;
+    width: 10.636rem;
+    list-style-type: none;
+    order: -1;
+  }
+
+  .social-icon {
+    margin-bottom: 30px;
+  }
+
+  .projects {
+    background-color: #fff;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-image {
+    width: 65%;
+    height: 450px;
+    margin-right: 50px;
+  }
+
+  .card-content {
+    width: 35%;
+  }
+
+  .other-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .card21 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 450px;
+    background-image: url("images/image1.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .card211 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 450px;
+    background-image: url("images/image4.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .card-button21 {
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    background: #ff6b00;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .card22 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 450px;
+    background-image: url("images/image2.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .card23 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 450px;
+    background-image: url("images/image3.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .about-me {
+    align-items: flex-start;
+    background-image: url("images/about.png");
+    background-size: 530px 300px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+  }
+
+  .about-content {
+    margin-left: 100px;
+    width: 45%;
+  }
+
+  .lan {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .contact-para {
+    width: 40%;
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #262626;
+  }
+
+  .ins {
+    padding-top: 30px;
+    align-items: flex-start;
+    width: 60%;
+  }
+
+  .in {
+    margin-bottom: 30px;
+    width: 80%;
+  }
+
+  .message-input {
+    width: 100%;
+  }
+
+  .contact-input {
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .contact-icons {
+    padding-top: 20px;
+  }
+
+  .card-button2 {
+    display: none;
+  }
+
+  .lan-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 43px;
+  }
+
+  .lan-title {
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-title {
+    font-family: Crete Round, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 81px;
+  }
+
+  .about-para {
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .lan-span {
+    padding-top: 15px;
+    padding-right: 10px;
+    height: 20px;
+  }
+
+  .card-title2 {
+    padding-left: 15px;
+  }
+
+  .card-para2 {
+    padding-left: 15px;
+  }
+
+  .langs2 {
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
 }
