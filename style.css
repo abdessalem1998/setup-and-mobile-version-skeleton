@@ -339,6 +339,8 @@ header {
   border: 1px solid #f55800;
   box-sizing: border-box;
   color: #f55800;
+  width: 20%;
+  height: 20%;
 }
 
 .separate {
@@ -491,6 +493,10 @@ header {
     padding-top: 30px;
   }
 
+  .logo:hover {
+    font-size: 60px;
+  }
+
   .nav-items {
     display: flex;
     flex-direction: row;
@@ -556,6 +562,20 @@ header {
 
   .header-text {
     width: 40%;
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   .social-icons {
